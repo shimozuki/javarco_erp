@@ -34,7 +34,7 @@
               </a>
             </li>
             <li class="nav-item {{ ($nav == 'top-kontribusi') ? 'active' : '' }}">
-              <a class="nav-link " href="">
+              <a class="nav-link " href="#">
                 <i class="fas fa-user text-yellow"></i> Kontak Agen
               </a>
             </li>
