@@ -1,3 +1,4 @@
+<h3 style="margin-bottom: 30px;">PT.Javarco Sumbawa</h3>
 <!-- Navigation -->
         <ul class="navbar-nav">
           @if ($user->role == 'author')
@@ -29,17 +30,17 @@
             </li>
             <li class="nav-item {{ ($nav == 'anggota') ? 'active' : '' }}">
               <a class="nav-link " href="{{ url('/admin/anggota') }}">
-                <i class="fas fa-users"></i> List Anggota
+                <i class="fas fa-users"></i> List Pegawai
               </a>
             </li>
-            <!-- <li class="nav-item {{ ($nav == 'top-kontribusi') ? 'active' : '' }}">
+            <li class="nav-item ">
               <a class="nav-link " href="{{ url('/admin/top-kontribusi') }}">
-                <i class="fas fa-trophy text-yellow"></i> Top Kontribusi
+                <i class="fas fa-user text-yellow"></i> Kontak Agen
               </a>
-            </li> -->
+            </li>
             <li class="nav-item {{ ($nav == 'penjualan') ? 'active' : '' }}">
               <a class="nav-link " href="{{ url('/admin/penjualan') }}">
-                <i class="ni ni-cart text-yellow"></i> Penjualan
+                <i class="ni ni-cart text-green"></i> Transaksi  
               </a>
             </li>
             <li class="nav-item {{ ($nav == 'traffics') ? 'active' : '' }}">

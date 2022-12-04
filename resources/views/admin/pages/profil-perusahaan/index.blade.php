@@ -65,14 +65,14 @@
                     <input type="text" id="telp" class="form-control form-control-alternative" readonly="" style="background: white" value="{{ $perusahaan->telp }}">
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <!-- <div class="col-lg-6">
                   <div class="form-group">
                     <label class="form-control-label" for="email">Email</label>
                     <input type="email" id="email" class="form-control form-control-alternative" readonly="" style="background: white" value="{{ $perusahaan->email }}">
                   </div>
-                </div>
+                </div> -->
               </div>
-              <div class="row">
+              <!-- <div class="row">
                 <div class="col-lg-6">
                   <div class="form-group focused">
                     <label class="form-control-label" for="fax">Fax</label>
@@ -85,9 +85,9 @@
                     <input type="text" id="situs" class="form-control form-control-alternative" readonly="" style="background: white" value="{{ $perusahaan->site }}">
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
-            <div class="pl-lg-4">
+            <!-- <div class="pl-lg-4">
               <div class="row">
                 <div class="col-lg-6">
                   <div class="form-group focused">
@@ -102,7 +102,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
             <hr class="my-4">
             <!-- Address -->
             <div class="pl-lg-4">

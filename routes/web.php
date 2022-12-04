@@ -14,7 +14,7 @@
 Auth::routes();
 
 Route::get('/', function () {
-    return view('landing');
+    return redirect('/login');
 });
 
 // Halaman Login Undangan
