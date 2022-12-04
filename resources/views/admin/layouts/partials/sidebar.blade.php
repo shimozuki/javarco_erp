@@ -39,7 +39,7 @@
               </a>
             </li>
             <li class="nav-item {{ ($nav == 'penjualan') ? 'active' : '' }}">
-              <a class="nav-link " href="{{ url('/admin/penjualan') }}">
+              <a class="nav-link " href="#">
                 <i class="ni ni-cart text-green"></i> Transaksi  
               </a>
             </li>
